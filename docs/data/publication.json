@@ -1,21 +1,23 @@
 {
   "schema": "ifs-chora-public/v1",
   "release": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "date": "2026-11-19",
     "last_public_reviewed": "2026-11-19",
     "nature": "PUBLIC_OVERVIEW_ONLY",
     "publication_authorization": {
       "status": "APPROVED",
-      "basis": "User instruction in this conversation, 2026-11-19: deploy an integrated IFS/CHORA website or create a new one",
+      "basis": "Author requested current CHORA status and second update in this conversation, 2026-11-19; scoped to already authorized programme overview.",
       "scope": "High-level public descriptions of IFS and CHORA; no private source code, proofs, draft manuscripts or unapproved claims",
       "decision_owner": "author"
-    }
+    },
+    "update_id": "CHORA-PUBLIC-STATUS-20261119-02",
+    "change_scope": "Status clarification of LIFT programme overview. No individual scientific result disclosed or promoted."
   },
   "governance": {
     "canon_effect": "NONE",
     "scientific_promotion": "NONE",
-    "data_lineage": "Selected and scoped source reports through 2026-11-19; this public summary is not a normative source",
+    "data_lineage": "Scoped read-only review of dated CHORA source packages through 2026-11-19; full original/source and human G10 gates remain distinct from public overview.",
     "public_repo_role": "WEBSITE_ONLY",
     "private_research_sync": "DISABLED_UNTIL_APPROVED_EXPORT",
     "g10_status": "OPEN",
@@ -66,10 +68,10 @@
       "id": "LIFT",
       "title_pl": "Lokalność wyższych rzędów",
       "title_en": "Higher-order locality",
-      "description_pl": "Konstrukcje i lematy transportowe dotyczące kolejnych dżetów przepływu. Ogólne prawo promieni i niezależny odbiór pozostają otwarte.",
-      "description_en": "Constructions and transport lemmas for higher-order flow jets. The general radius law and independent review remain open.",
+      "description_pl": "Badania nad lokalnością wyższych rzędów znajdują się na etapie kontroli zależności między transportem lokalnym, dynamiką i odpowiedzią globalną. Istnieją wyniki testów skończonych oraz robocze lematy, lecz pełne twierdzenie dla wszystkich rzędów i niezależny odbiór pozostają otwarte.",
+      "description_en": "Higher-order locality research is undergoing source-level review of the links between local transport, dynamics and global response. Finite exact tests and working lemmas exist, but the full theorem for all orders and independent mathematical review remain open.",
       "state": "OPEN",
-      "source_basis": "CHORA/LIFT source packages and scope-restricted reviews, 2026-11-18",
+      "source_basis": "CHORA/LIFT scoped working-source review, 2026-11-19; programme overview only, non-canonical.",
       "claim_authorization": "PUBLIC_OVERVIEW_ONLY"
     },
     {
