@@ -1,0 +1,91 @@
+{
+  "schema": "ifs-chora-public/v1",
+  "release": {
+    "version": "0.1.0",
+    "date": "2026-11-19",
+    "last_public_reviewed": "2026-11-19",
+    "nature": "PUBLIC_OVERVIEW_ONLY",
+    "publication_authorization": {
+      "status": "APPROVED",
+      "basis": "User instruction in this conversation, 2026-11-19: deploy an integrated IFS/CHORA website or create a new one",
+      "scope": "High-level public descriptions of IFS and CHORA; no private source code, proofs, draft manuscripts or unapproved claims",
+      "decision_owner": "author"
+    }
+  },
+  "governance": {
+    "canon_effect": "NONE",
+    "scientific_promotion": "NONE",
+    "data_lineage": "Selected and scoped source reports through 2026-11-19; this public summary is not a normative source",
+    "public_repo_role": "WEBSITE_ONLY",
+    "private_research_sync": "DISABLED_UNTIL_APPROVED_EXPORT",
+    "g10_status": "OPEN",
+    "priority_status": "UNDETERMINED"
+  },
+  "research_tracks": [
+    {
+      "id": "G1",
+      "title_pl": "Ostry promień lokalności",
+      "title_en": "Sharp locality radius",
+      "description_pl": "Manuskrypt o tym, ile lokalnej informacji wystarcza do wyznaczenia początkowej odpowiedzi średniej krzywizny. Wybrana wersja normatywna ma oddzielny kanon; odbiór G10, literatura i publikacja pozostają otwarte.",
+      "description_en": "A manuscript on how much local information determines the initial response of mean curvature. A normative manuscript version has been selected separately; independent review, prior-art assessment and publication remain open.",
+      "state": "MANUSCRIPT",
+      "source_basis": "CHORA/G1 version and canon records, 2026-11-18",
+      "claim_authorization": "PUBLIC_OVERVIEW_ONLY"
+    },
+    {
+      "id": "OBS",
+      "title_pl": "Granice agregatów",
+      "title_en": "Limits of aggregates",
+      "description_pl": "Badanie sytuacji, w których agregaty spektralne i krzywiznowe nie wyznaczają określonej odpowiedzi sieci. Materiały źródłowe i ocena pierwszeństwa należą do osobnych bram.",
+      "description_en": "Research into cases where spectral and curvature aggregates fail to determine a specified network response. Source validation and scientific priority remain separate gates.",
+      "state": "MANUSCRIPT",
+      "source_basis": "CHORA/OBS working record, 2026-11-18",
+      "claim_authorization": "PUBLIC_OVERVIEW_ONLY"
+    },
+    {
+      "id": "G3",
+      "title_pl": "Średnia a minimum",
+      "title_en": "Mean versus minimum",
+      "description_pl": "Analiza różnicy między odpowiedzią średniej i minimum krzywizny oraz zależności tej odpowiedzi od obserwatora.",
+      "description_en": "Analysis of the differing responses of mean and minimum curvature and their dependence on the observer.",
+      "state": "MANUSCRIPT",
+      "source_basis": "CHORA/G3 working record, 2026-11-18",
+      "claim_authorization": "PUBLIC_OVERVIEW_ONLY"
+    },
+    {
+      "id": "C8",
+      "title_pl": "Równowagi na cyklach",
+      "title_en": "Equilibria on cycles",
+      "description_pl": "Jawne rodziny stanów zerokrzywiznowych na ważonych cyklach. Świadectwa ograniczonych konstrukcji nie są globalną klasyfikacją ani dowodem pierwszeństwa.",
+      "description_en": "Explicit families of zero-curvature states on weighted cycles. Evidence for scoped constructions is neither a global classification nor a claim of priority.",
+      "state": "EVIDENCE",
+      "source_basis": "CHORA/C8 scoped reports, 2026-11-17/18",
+      "claim_authorization": "PUBLIC_OVERVIEW_ONLY"
+    },
+    {
+      "id": "LIFT",
+      "title_pl": "Lokalność wyższych rzędów",
+      "title_en": "Higher-order locality",
+      "description_pl": "Konstrukcje i lematy transportowe dotyczące kolejnych dżetów przepływu. Ogólne prawo promieni i niezależny odbiór pozostają otwarte.",
+      "description_en": "Constructions and transport lemmas for higher-order flow jets. The general radius law and independent review remain open.",
+      "state": "OPEN",
+      "source_basis": "CHORA/LIFT source packages and scope-restricted reviews, 2026-11-18",
+      "claim_authorization": "PUBLIC_OVERVIEW_ONLY"
+    },
+    {
+      "id": "PR",
+      "title_pl": "Powrót po zaburzeniu",
+      "title_en": "Recovery after disturbance",
+      "description_pl": "Badanie warunków odzyskania przewodności i usługi na ścieżkach przy określonym prawie przepływu i klasie uszkodzeń.",
+      "description_en": "Conditions for recovering conductances and service on paths, under a specified flow law and disturbance class.",
+      "state": "MANUSCRIPT",
+      "source_basis": "CHORA/PR working manuscript, 2026-11-18",
+      "claim_authorization": "PUBLIC_OVERVIEW_ONLY"
+    }
+  ],
+  "authorized_results": [],
+  "public_links": {
+    "ifs_contact": "mailto:institute.of.formal.structures@gmail.com",
+    "web_source": "https://github.com/instituteofformalstructures-hash/ifs-chora-web"
+  }
+}
