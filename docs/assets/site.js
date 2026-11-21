@@ -53,7 +53,7 @@
       row.append(node("strong", "", rec.id));
       const copy = node("div", "");
       copy.append(node("h3", "", rec["title_" + language]));
-      copy.append(node("p", "", language === "pl" ? "Publiczny opis · niezależny odbiór i pierwszeństwo: bez awansu" : "Public overview · independent review and priority: not promoted"));
+      copy.append(node("p", "", rec["description_" + language]));
       row.append(copy);
       row.append(node("span", "status-tag", labelForState(rec.state, language)));
       box.append(row);

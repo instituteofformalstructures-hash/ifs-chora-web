@@ -1,23 +1,23 @@
 {
   "schema": "ifs-chora-public/v1",
   "release": {
-    "version": "0.1.1",
-    "date": "2026-11-19",
-    "last_public_reviewed": "2026-11-19",
+    "version": "0.1.2",
+    "date": "2026-11-21",
+    "last_public_reviewed": "2026-11-21",
     "nature": "PUBLIC_OVERVIEW_ONLY",
     "publication_authorization": {
       "status": "APPROVED",
-      "basis": "Author requested current CHORA status and second update in this conversation, 2026-11-19; scoped to already authorized programme overview.",
+      "basis": "The author requested an update on 2026-11-21 after reviewing the private repository and the public programme page. This entry covers the public status overview.",
       "scope": "High-level public descriptions of IFS and CHORA; no private source code, proofs, draft manuscripts or unapproved claims",
       "decision_owner": "author"
     },
-    "update_id": "CHORA-PUBLIC-STATUS-20261119-02",
-    "change_scope": "Status clarification of LIFT programme overview. No individual scientific result disclosed or promoted."
+    "update_id": "CHORA-PUBLIC-STATUS-20261121-01",
+    "change_scope": "Update to the G1 submission status and the LIFT programme overview."
   },
   "governance": {
     "canon_effect": "NONE",
     "scientific_promotion": "NONE",
-    "data_lineage": "Scoped read-only review of dated CHORA source packages through 2026-11-19; full original/source and human G10 gates remain distinct from public overview.",
+    "data_lineage": "G1 publication record and LIFT source packages reviewed through 2026-11-21. The full programme remains subject to independent mathematical review.",
     "public_repo_role": "WEBSITE_ONLY",
     "private_research_sync": "DISABLED_UNTIL_APPROVED_EXPORT",
     "g10_status": "OPEN",
@@ -28,10 +28,10 @@
       "id": "G1",
       "title_pl": "Ostry promień lokalności",
       "title_en": "Sharp locality radius",
-      "description_pl": "Manuskrypt o tym, ile lokalnej informacji wystarcza do wyznaczenia początkowej odpowiedzi średniej krzywizny. Wybrana wersja normatywna ma oddzielny kanon; odbiór G10, literatura i publikacja pozostają otwarte.",
-      "description_en": "A manuscript on how much local information determines the initial response of mean curvature. A normative manuscript version has been selected separately; independent review, prior-art assessment and publication remain open.",
+      "description_pl": "Wersja P2.1 artykułu o początkowej odpowiedzi średniej krzywizny czeka na decyzję autora o zgłoszeniu.",
+      "description_en": "Version P2.1 of the manuscript on the initial response of mean curvature is ready for the author's decision on submission.",
       "state": "MANUSCRIPT",
-      "source_basis": "CHORA/G1 version and canon records, 2026-11-18",
+      "source_basis": "G1 P2.1 publication record, 2026-11-21",
       "claim_authorization": "PUBLIC_OVERVIEW_ONLY"
     },
     {
@@ -68,10 +68,10 @@
       "id": "LIFT",
       "title_pl": "Lokalność wyższych rzędów",
       "title_en": "Higher-order locality",
-      "description_pl": "Badania nad lokalnością wyższych rzędów znajdują się na etapie kontroli zależności między transportem lokalnym, dynamiką i odpowiedzią globalną. Istnieją wyniki testów skończonych oraz robocze lematy, lecz pełne twierdzenie dla wszystkich rzędów i niezależny odbiór pozostają otwarte.",
-      "description_en": "Higher-order locality research is undergoing source-level review of the links between local transport, dynamics and global response. Finite exact tests and working lemmas exist, but the full theorem for all orders and independent mathematical review remain open.",
+      "description_pl": "Zakończono techniczny odbiór formalizacji lokalnego przepływu w Lean dla badanej rodziny grafów. Powstał manuskrypt dotyczący odpowiedzi wszystkich rzędów. Cały argument czeka na niezależną recenzję matematyczną.",
+      "description_en": "Technical review of the Lean formalization of local flow for the graph family is complete. A manuscript now covers responses of all orders. The full argument awaits independent mathematical review.",
       "state": "OPEN",
-      "source_basis": "CHORA/LIFT scoped working-source review, 2026-11-19; programme overview only, non-canonical.",
+      "source_basis": "LIFT local ODE source receipt and all-orders manuscript, 2026-11-21",
       "claim_authorization": "PUBLIC_OVERVIEW_ONLY"
     },
     {
